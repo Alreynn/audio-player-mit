@@ -183,12 +183,12 @@ Dan yang terakhir, aplikasi akan mengosongkan input dari InputAudioName dan Inpu
 ---
 
 ### Pemilihan Playlist
-![Picking Playlist](./img/pickPlaylist.png)
 Ini adalah bagian yang terakhir, pemilihan playlist.
 
 ![Before Picking Playlist](./img/beforePickPlaylist.png)
 Sebelum aplikasi memuat tampilan pemilihan playlist, blok ini akan secara otomatis memuat ulang tampilan playlist agar semua playlist yang ditambahkan bisa terlihat. Jika blok ini tidak ada, maka playlist hanya menampilkan audio Dive oleh Ed Sheeran.
 
+![Picking Playlist](./img/pickPlaylist.png)
 Setelah memuat ulang tampilan playlist, tentu pengguna akan memilih salah satu audio. Setelah salah satu audio dipilih, aplikasi akan memanggil prosedur setItems.
 ![setItems procedure](./img/funct_setItems.png)
 Untuk menerapkan data yang tersimpan pada salah satu audio playlist. Pasti ada yang bertanya, mengapa panjang sekali?
