@@ -5,6 +5,7 @@
 * [Blok](#blok)
     * [Ketika aplikasi dimuat](#ketika-aplikasi-dimuat)
     * [Kontrol Audio](#kontrol-audio)
+    * [Reset](#reset)
     * [Penambahan Audio](#penambahan-audio)
     * [Pemilihan Playlist](#pemilihan-playlist)
 
@@ -79,7 +80,7 @@ Variabel Playlist untuk apa? Variabel ini digunakan untuk menyimpan semua lagu y
     }
 }
 ```
-Lalu, mengatur variabel Playlist untuk menerapkan nilai dari database yang tersimpan dengan tag "Playlist." Kalau tag tidak memuat, maka gunakan nilai bawaan:
+Lalu, mengatur variabel Playlist untuk menerapkan nilai dari database yang tersimpan dengan tag "Playlist." Kalau tag yang dicari tidak memiliki nilai, maka gunakan nilai bawaan:
 ![firstPlaylist Procedure](./img/funct_firstPlaylist.png)  
 
 Setelah mengambil nilai dari Playlist, kita akan mengambil nilai untuk SongNumbering dari database untuk diterapkan nilainya ke variabel SongNumbering. Kalau tidak memuat, maka gunakan nilai bawaan 0.
@@ -117,6 +118,12 @@ Jikalau loop dinyalakan untuk Player1, maka pada saat tombol ini dklik, akan mem
 
 ![If Song is Completed](./img/ifSongComplete.png)
 Pada saat Player1 sudah memainkan audionya sampai habis, secara otomatis akan merubah icon tombol PlayPause menjadi play.png (▶️).
+
+---
+
+### Reset
+![Reset block](./img/reset.png)
+Apabila tombol reset ditekan, maka akan langsung menghapus semua yang tersimpan pada database. Lalu menutup aplikasi secara otomatis untuk menerapkan perubahan.
 
 ---
 
